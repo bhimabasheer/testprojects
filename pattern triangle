@@ -1,0 +1,9 @@
+k=10
+for i in range(10):
+
+    print(k*' ','* '*i)
+    k-=1
+for i in range(10,0,-1):
+
+    print(k*' ','* '*i)
+    k+=1
